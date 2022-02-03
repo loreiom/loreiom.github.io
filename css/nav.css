@@ -1,0 +1,77 @@
+nav{
+  background-color: white;
+  height: 85px;
+  width: 100%;
+}
+nav > li {
+  list-style-type: none;
+}
+nav > li > a > img{
+  overflow: hidden;
+  float: left;
+}
+nav > li > #home, #drone, #about{
+  float: right;
+  margin-top: 25px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 24px;
+}
+nav > li > #about{
+  color: red;
+}
+nav > li > #drone{
+  color: blue;
+}
+nav > li > #home{
+  color: orange;
+}
+nav > li > #about:hover, #home:hover, #drone:hover{
+  color:black;
+  font-size: 28px;
+}
+#menu{
+  float: right;
+  font-size:40px;
+  margin-top: 17px;
+  margin-right: 50px;
+  display: none;
+  color: black;  
+}
+
+#mobilenav{
+  background-color: black;
+  width: 110px;
+  font-size: 20px;
+  text-align: center;
+  float: right;
+  height: 150px;
+  margin-top:70px;
+  display: none;
+}
+#mobilenav > li{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+#mobilenav > li > a{
+  text-decoration: none;
+  color:white;
+}
+
+#closemenu > a > #cls {
+  float: right;
+  font-size:40px;
+  margin-top: 17px;
+  margin-right: 50px;
+  display: none;
+  color: black;  
+}
+@media screen and (max-width: 698px) {
+ nav > li > #about, #home, #drone{
+   display: none;
+ }
+ #menu{
+   display: flex;
+ }
+ 
+}
