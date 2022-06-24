@@ -21,3 +21,12 @@ section{
         display: inline!important;
     }
 }
+
+
+
+@media screen and (max-width: 554px){
+    .portfoliodiv{
+        width: 300px!important;
+        
+    }
+   
