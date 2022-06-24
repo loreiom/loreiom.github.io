@@ -1,0 +1,23 @@
+section{
+    display: flex!important;
+    padding: 10px!important;
+}
+
+@media screen and (max-width: 800px){
+    section{
+        display: inline!important;
+        padding: 10px;
+    }
+    .portfoliodiv{
+        margin-bottom: 100px;
+        margin: auto auto;
+        padding: 10px;
+    }
+    .os{
+        width: 400px;
+        height: 150px;
+    }
+    #hr{
+        display: inline!important;
+    }
+}
